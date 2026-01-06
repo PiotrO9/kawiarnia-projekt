@@ -1,83 +1,66 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Strona kawiarni</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kawiarnia</title>
 </head>
 <body>
 
   <header>
+    <h1>Kawiarnia</h1>
     <nav>
       <ul>
-        <li><a href="#home">Start</a></li>
-        <li><a href="#about">O kawiarni</a></li>
-        <li><a href="#menu">Oferta</a></li>
+        <li><a href="#about">O nas</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#gallery">Galeria</a></li>
         <li><a href="#contact">Kontakt</a></li>
       </ul>
     </nav>
-    <h1>Strona kawiarni</h1>
   </header>
 
-  <main>
+  <section id="hero">
+    <h2>Dobra kawa na co dzień</h2>
+    <p>Świeżo parzona kawa i spokojna atmosfera.</p>
+  </section>
 
-    <section id="home">
-      <h2>Kawa, którą zapamiętasz</h2>
-      <p>Miejsce na chwilę spokoju i dobrą kawę.</p>
-    </section>
+  <section id="about">
+    <h2>O nas</h2>
+    <p>
+      Lokalna kawiarnia stworzona z pasji do kawy i spotkań.
+    </p>
+  </section>
 
-    <section id="about">
-      <h2>Kim jesteśmy</h2>
-      <p>
-        Kameralne miejsce stworzone do spotkań i odpoczynku.
-      </p>
-    </section>
+  <section id="menu">
+    <h2>Menu</h2>
 
-    <section id="menu">
-      <h2>Oferta</h2>
+    <h3>Kawy</h3>
+    <ul>
+      <li>Espresso</li>
+      <li>Cappuccino</li>
+      <li>Latte</li>
+      <li>Flat White</li>
+    </ul>
 
-      <article>
-        <h3>Kawy klasyczne</h3>
-        <ol>
-          <li>Espresso</li>
-          <li>Americano</li>
-          <li>Cappuccino</li>
-        </ol>
-      </article>
+    <h3>Wypieki</h3>
+    <ul>
+      <li>Sernik</li>
+      <li>Brownie</li>
+      <li>Ciasto marchewkowe</li>
+    </ul>
+  </section>
 
-      <article>
-        <h3>Słodkości</h3>
-        <ol>
-          <li>Brownie</li>
-          <li>Sernik</li>
-          <li>Ciasto dnia</li>
-        </ol>
-      </article>
-    </section>
+  <section id="gallery">
+    <h2>Galeria</h2>
+    <p>Zdjęcia lokalu i produktów</p>
+  </section>
 
-    <section id="gallery">
-      <h2>Galeria</h2>
-    </section>
-
-    <section id="contact">
-      <h2>Kontakt</h2>
-      <form>
-        <label>
-          Email
-          <input type="email" name="email">
-        </label>
-        <label>
-          Wiadomość
-          <textarea name="message"></textarea>
-        </label>
-        <button type="submit">Wyślij</button>
-      </form>
-    </section>
-
-  </main>
+  <section id="contact">
+    <h2>Kontakt</h2>
+  </section>
 
   <footer>
-    <small>2026</small>
+    <p>&copy; 2026</p>
   </footer>
 
 </body>
