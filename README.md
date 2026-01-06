@@ -1,3 +1,2 @@
 # To jest główny plik readme projektu
-
-## Tutaj będa znajdować się informacje o projekcie
+### W nagłówku 3 rzędu będą mniej istotne informacje
